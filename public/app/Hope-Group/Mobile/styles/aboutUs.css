@@ -1,0 +1,126 @@
+.company {
+  padding: 20px 0;
+}
+
+.company h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.company__title {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.company__title span {
+  color: var(--text-color-bl);
+}
+
+.company__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.company__list li {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.company__list p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.guarantees {
+  margin-bottom: 20px;
+}
+.guarantees div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.guarantees div:last-child {
+  align-items: start;
+}
+
+.guarantees__title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.guarantees__text {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.guarantees__text--left {
+}
+
+.guarantees__text--right {
+  text-align: right;
+}
+
+.guarantees__button {
+  width: 150px;
+  height: 40px;
+  background-color: var(--text-color-bl);
+  color: var(--bgcolor-w);
+  border-radius: 17px;
+  padding: 10px;
+  font-size: 12spx;
+  font-weight: 700;
+}
+
+.guarantees__button-right {
+  border-top-right-radius: 0;
+  margin-bottom: 10px;
+}
+.guarantees__button-left {
+  border-top-left-radius: 0;
+}
+
+.adress {
+  border-radius: 8px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.adress__list {
+  display: grid;
+  grid-template-columns: 1.2fr 1.4fr 1fr;
+}
+
+.adress__list li {
+  padding: 5px;
+}
+.adress__list li:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.adress__label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.adress__text {
+  font-size: 10px;
+  font-weight: 300;
+  margin-bottom: 3px;
+}

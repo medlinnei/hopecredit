@@ -1,0 +1,17 @@
+.credit__title {
+  font-size: 70px;
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+.credit__text {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.credit__link {
+  color: var(--text-color-bl);
+  font-weight: 700;
+  font-size: 25px;
+}

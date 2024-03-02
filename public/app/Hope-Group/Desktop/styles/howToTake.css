@@ -1,0 +1,123 @@
+.take {
+  padding: 50px 150px;
+}
+
+.take__title {
+  font-size: 45px;
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.take__title span {
+  color: var(--text-color-bl);
+}
+
+.take__container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 64px;
+}
+
+.take__list {
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  max-width: 470px;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.take__list li {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.take__list-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+.take__list-block p {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.take__list-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.take__list-text {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.take__calculate {
+  display: flex;
+  flex-direction: column;
+  max-width: 434px;
+  background-color: transparent;
+  color: var(--bgcolor-b);
+  border-radius: 8px;
+  gap: 0;
+  padding: 0;
+}
+.take__calculate-title {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.take__slide {
+  margin: 0;
+  margin-bottom: 40px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.take__calculate--result {
+  text-align: center;
+}
+
+.take__calculate--btn {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  background-color: var(--text-color-bl);
+  color: var(--bgcolor-w);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.take__promocode {
+  display: block;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 1.15;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin: 0 auto 30px auto;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.take__programm-btn {
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.take__text {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.take__text a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

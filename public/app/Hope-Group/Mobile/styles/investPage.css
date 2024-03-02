@@ -1,0 +1,138 @@
+.invest {
+  padding: 30px 0;
+}
+
+.invest__title {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.invest__title span {
+  color: var(--text-color-bl);
+}
+
+.invest__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.invest__btn {
+  width: 200px;
+  height: 40px;
+  background-color: var(--btn-color);
+  color: var(--bgcolor-w);
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  font-weight: 700;
+  font-size: 18px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.invest-hero {
+  position: relative;
+  max-width: 480px;
+  height: 320px;
+  background-color: var(--bgcolor-b);
+  color: var(--bgcolor-w);
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.invest-hero div {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.bid-block {
+  position: absolute;
+  top: 35px;
+  left: 90px;
+  width: 90px;
+  height: 90px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    147deg,
+    rgba(0, 0, 0, 0.01) 0%,
+    rgba(14, 126, 239, 1) 100%
+  );
+  z-index: 2;
+}
+
+.bid-block-label {
+  font-size: 10px;
+}
+
+.bid-block-text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.period-block {
+  position: absolute;
+  top: 55px;
+  left: 190px;
+  width: 200px;
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.period-block-label {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.period-block-term {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.period-block-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.progressbar {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.coins {
+  margin-left: 80%;
+}
+
+.diagram-block {
+  position: absolute;
+  top: 145px;
+  left: 65px;
+  width: 180px;
+  height: 120px;
+  background-color: rgba(117, 117, 117, 0.5);
+}
+
+.diagram-block img {
+  margin: 0 auto;
+}
+
+.sum-block {
+  position: absolute;
+  top: 195px;
+  left: 260px;
+  width: 120px;
+  height: 100px;
+  background-color: var(--text-color-bl);
+}
+
+.sum-block-label {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.sum-block-amount {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}

@@ -1,0 +1,138 @@
+.company {
+  padding: 50px 150px;
+}
+
+.company h3 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.company__title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.company__title span {
+  color: var(--text-color-bl);
+}
+
+.company__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.company__list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  max-width: 400px;
+  height: 250px;
+  gap: 20px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.company__list li:nth-last-of-type(n + 3) {
+  padding-top: 50px;
+  width: 300px;
+}
+
+.company__list p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.guarantees {
+  padding: 50px 150px;
+}
+.guarantees div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.guarantees div:last-child {
+  align-items: start;
+}
+
+.guarantees__title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.guarantees__text {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.guarantees__text--right {
+  text-align: right;
+}
+
+.guarantees__button {
+  width: 350px;
+  height: 70px;
+  background-color: var(--text-color-bl);
+  color: var(--bgcolor-w);
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.guarantees__button-right {
+  border-top-right-radius: 0;
+}
+
+.guarantees__button-left {
+  border-top-left-radius: 0;
+  margin: 0;
+}
+
+.adress {
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 50px 150px;
+  margin-bottom: 50px;
+}
+
+.adress__list {
+  display: grid;
+  grid-template-columns: 1.1fr 1.4fr 1.1fr;
+}
+
+.adress__list li {
+  padding: 5px;
+}
+
+.adress__list li:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.adress__label {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.adress__text {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}

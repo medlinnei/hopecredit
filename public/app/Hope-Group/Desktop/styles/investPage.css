@@ -1,0 +1,150 @@
+.invest {
+  position: relative;
+  padding: 30px 150px;
+  height: 500px;
+}
+
+.invest__title {
+  font-size: 70px;
+  margin-top: 70px;
+  margin-bottom: 5px;
+}
+
+.invest__text {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.invest__btn {
+  width: 300px;
+  height: 70px;
+  background-color: var(--bgcolor-b);
+  color: var(--bgcolor-w);
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  font-weight: 700;
+  font-size: 30px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.invest__img {
+  position: absolute;
+  top: -150px;
+  right: 20px;
+  z-index: 1;
+}
+
+.bid-block {
+  position: absolute;
+  top: 15px;
+  right: 460px;
+  width: 143px;
+  height: 143px;
+  background: rgb(0, 155, 255);
+  background: linear-gradient(
+    147deg,
+    rgba(0, 155, 255, 1) 0%,
+    rgba(0, 155, 255, 0.217546393557423) 100%
+  );
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 2;
+}
+
+.bid-block-label {
+  font-size: 10px;
+  color: var(--bgcolor-w);
+}
+
+.bid-block-text {
+  font-size: 55px;
+  font-weight: 700;
+  color: var(--bgcolor-w);
+}
+
+.period-block {
+  position: absolute;
+  top: 55px;
+  right: 150px;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(1px);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.period-block-label {
+  color: var(--bgcolor-w);
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.period-block-term {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: var(--bgcolor-w);
+}
+
+.period-block-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: var(--bgcolor-w);
+}
+
+.progressbar {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.coins {
+  margin-left: 75%;
+}
+
+.diagram-block {
+  position: absolute;
+  top: 185px;
+  right: 330px;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.diagram-block img {
+  margin: 0 auto;
+}
+
+.sum-block {
+  position: absolute;
+  top: 295px;
+  right: 150px;
+  width: 170px;
+  height: 130px;
+  background: rgb(4, 141, 230);
+  background: linear-gradient(
+    147deg,
+    rgba(4, 141, 230, 1) 0%,
+    rgba(5, 39, 61, 1) 100%
+  );
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sum-block-label {
+  color: var(--bgcolor-w);
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.sum-block-amount {
+  color: var(--bgcolor-w);
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}

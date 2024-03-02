@@ -1,0 +1,60 @@
+<section class="auth">
+  <h2 class="auth__title">Особисті дані</h2>
+  <div class="steps">
+    <span class="steps__number">1</span>
+    <span class="steps__line"></span>
+    <span class="steps__number">2</span>
+    <span class="steps__line"></span>
+    <span class="steps__number">3</span>
+  </div>
+  <form class="form" action="">
+    <label class="form__label"
+      ><p>Прізвище</p>
+      <input class="form__input" type="text" />
+    </label>
+    <label class="form__label"
+      ><p>Ім'я</p>
+      <input class="form__input" type="text" />
+    </label>
+    <label class="form__label"
+      ><p>По батькові</p>
+      <input class="form__input" type="text" />
+    </label>
+    <label class="form__label"
+      ><p>Дата народження</p>
+      <input
+        class="form__input"
+        type="date"
+        placeholder="Введіть дату народження"
+      />
+    </label>
+    <h2 class="auth__title">Паспортні дані</h2>
+    <div class="radio">
+      <div>
+        <input
+          type="radio"
+          value="old-card"
+          id="old-card"
+          name="radio"
+          checked
+        />
+        <label class="radio__text" for="old-card"
+          >Паспорт старого образца</label
+        >
+      </div>
+      <div>
+        <input type="radio" value="new-card" id="new-card" name="radio" />
+        <label class="radio__text" for="new-card">ID-карточка</label>
+      </div>
+    </div>
+    <label class="form__label"
+      ><p>Серія паспорта</p>
+      <input class="form__input" type="text" />
+    </label>
+    <label class="form__label"
+      ><p>Індефікаційний номер</p>
+      <input class="form__input" type="number" />
+    </label>
+    <button class="submit" type="submit">Далі</button>
+  </form>
+</section>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../main.css" />
+    <title>HopeGroup News</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <a class="logo" href="/">
+          <img
+            class="logo__image"
+            src="../../assets/Logo-black.png"
+            alt="logo"
+            width="36"
+            height="48"
+          />
+          <p class="logo__text">opeGroup</p>
+        </a>
+        <div>
+          <button class="burger">
+            <span class="burger__line burger__main"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </button>
+        </div>
+        <nav>
+          <ul class="nav__list">
+            <li><a href="./investPage.html">Invest</a></li>
+            <li><a href="./creditPage.html">Credit</a></li>
+            <li><a href="/">Support</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/partials/LoginMobile/number.html">Sign up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- <section class="auth">
+        <img
+          class="auth__logo"
+          src="../../assets/Logo-main.png"
+          alt="main-logo"
+          width="120"
+          height="120"
+        />
+        <form class="form" action="">
+          <label class="form__label" for="phone"
+            ><p>Номер телефона</p>
+            <input class="form__input" type="tel" id="phone" name="phone" />
+          </label>
+          <button class="submit" type="submit">Далee</button>
+          <a class="number__link" href="/">Нет доступа к номеру? </a>
+        </form>
+      </section> -->
+      <!-- <section class="auth">
+        <h2 class="auth__title">Особисті дані</h2>
+        <div class="steps">
+          <span class="steps__number">1</span>
+          <span class="steps__line"></span>
+          <span class="steps__number">2</span>
+          <span class="steps__line"></span>
+          <span class="steps__number">3</span>
+        </div>
+        <form class="form" action="">
+          <label class="form__label"
+            ><p>Прізвище</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Ім'я</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>По батькові</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Дата народження</p>
+            <input
+              class="form__input"
+              type="date"
+              placeholder="Введіть дату народження"
+            />
+          </label>
+          <h2 class="auth__title">Паспортні дані</h2>
+          <div class="radio">
+            <div>
+              <input
+                type="radio"
+                value="old-card"
+                id="old-card"
+                name="radio"
+                checked
+              />
+              <label class="radio__text" for="old-card"
+                >Паспорт старого образца</label
+              >
+            </div>
+            <div>
+              <input type="radio" value="new-card" id="new-card" name="radio" />
+              <label class="radio__text" for="new-card">ID-карточка</label>
+            </div>
+          </div>
+          <label class="form__label"
+            ><p>Серія паспорта</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Індефікаційний номер</p>
+            <input class="form__input" type="text" />
+          </label>
+          <button class="submit" type="submit">Далі</button>
+        </form>
+      </section> -->
+      <!-- <section class="auth">
+        <h2 class="auth__title">Адреса реєстрації</h2>
+        <div class="steps">
+          <span class="steps__number">1</span>
+          <span class="steps__line"></span>
+          <span class="steps__number">2</span>
+          <span class="steps__line"></span>
+          <span class="steps__number">3</span>
+        </div>
+        <form class="form" action="">
+          <label class="form__label"
+            ><p>Область</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Район</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Місто, населений пункт</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Індекс(не обов'язково)</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Вулиця</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Будинок</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Квартира</p>
+            <input class="form__input" type="text" />
+          </label>
+          <div>
+            <input type="checkbox" id="checkbox" name="checkbox" />
+            <label class="checkbox__text" for="old-card"
+              >Фактична адреса відрізняється
+            </label>
+          </div>
+          <button class="submit" type="submit">Далі</button>
+        </form>
+      </section> -->
+      <!-- <section class="auth">
+        <h2 class="auth__title">Адреса реєстрації</h2>
+        <div class="steps">
+          <span class="steps__number done"
+            ><img
+              src="../../assets/Checked.png"
+              alt="checked"
+              width="20"
+              height="16"
+          /></span>
+          <span class="steps__line"></span>
+          <span class="steps__number">2</span>
+          <span class="steps__line"></span>
+          <span class="steps__number">3</span>
+        </div>
+        <form class="form" action="">
+          <label class="form__label"
+            ><p>Тип зайнятості</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Дохід на місяць(грн)</p>
+            <input class="form__input" type="number" />
+          </label>
+          <button class="submit" type="submit">Далі</button>
+          <div>
+            <input type="checkbox" id="checkbox" name="checkbox" />
+            <label class="checkbox__text" for="old-card"
+              >Я хороша людина
+            </label>
+          </div>
+        </form>
+      </section> -->
+      <!-- <section class="auth">
+        <h2 class="auth__title">Додаткова інформація</h2>
+        <div class="steps">
+          <span class="steps__number done"
+            ><img
+              src="../../assets/Checked.png"
+              alt="checked"
+              width="20"
+              height="16"
+          /></span>
+          <span class="steps__line"></span>
+          <span class="steps__number">2</span>
+          <span class="steps__line"></span>
+          <span class="steps__number">3</span>
+        </div>
+        <form class="form" action="">
+          <label class="form__label"
+            ><p>Освіта</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Сімейний стан</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Кількість дітей до 18 років</p>
+            <input class="form__input" type="text" />
+          </label>
+          <h2 class="auth__title">Додаткові контактні дані</h2>
+          <label class="form__label"
+            ><p>Кому належить</p>
+            <input class="form__input" type="text" />
+          </label>
+          <label class="form__label"
+            ><p>Номер телефона</p>
+            <input class="form__input" type="number" />
+          </label>
+          <button class="submit" type="submit">Далі</button>
+        </form>
+      </section> -->
+      <section class="auth">
+        <h2 class="auth__title bank">
+          Реєстрація банківської картки для зарахування грошей
+        </h2>
+        <div class="steps">
+          <span class="steps__number done"
+            ><img
+              src="../../assets/Checked.png"
+              alt="checked"
+              width="20"
+              height="16"
+          /></span>
+          <span class="steps__line"></span>
+          <span class="steps__number done"
+            ><img
+              src="../../assets/Checked.png"
+              alt="checked"
+              width="20"
+              height="16"
+          /></span>
+          <span class="steps__line"></span>
+          <span class="steps__number">3</span>
+        </div>
+        <form class="form" action="">
+          <label class="form__label"
+            ><p>Номер картки</p>
+            <input class="form__input" type="number" />
+          </label>
+          <div class="form__bank">
+            <label class="form__label"
+              ><p>Термін дії</p>
+              <input class="form__input" type="number" />
+            </label>
+            <label class="form__label cvv"
+              ><p>CVV</p>
+              <button type="button">
+                <img
+                  src="../../assets/secret.png"
+                  alt="eye"
+                  width="25"
+                  height="15"
+                />
+              </button>
+              <input class="form__input" type="number" />
+            </label>
+          </div>
+          <button class="submit" type="submit">Далі</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="wrapper-bottom">
+        <div class="container footer__logo">
+          <a class="logo" href="/">
+            <img
+              src="../../assets/Logo-white.png"
+              alt="logo"
+              width="36"
+              height="48"
+            />
+            <p class="logo__text">opeGroup</p>
+          </a>
+          <ul class="social">
+            <li>
+              <a class="social__link" href="/">
+                <svg class="social__icon" width="43" height="29">
+                  <use href="./assets/icons.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social__link" href="/">
+                <svg class="social__icon" width="43" height="29">
+                  <use href="./assets/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social__link" href="/">
+                <svg class="social__icon" width="43" height="29">
+                  <use href="./assets/icons.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <ul class="help">
+            <li>
+              <a href="" class="help__link">Жалоба? Вам сюда!</a>
+            </li>
+            <li><a href="" class="help__link">Сообщить о мошенничестве</a></li>
+            <li>
+              <a href="" class="help__link"
+                >Не хватает денег на оплату кредита</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <div>
+            <h3 class="container__title">Вопросы</h3>
+            <button class="container__button">
+              <img
+                src="./assets/btn-line.png"
+                alt="line"
+                width="20"
+                height="15"
+              />
+            </button>
+          </div>
+          <ul class="container__list">
+            <li><a class="container__link" href="/">Часто задаваемые</a></li>
+            <li><a class="container__link" href="/">Тарифы</a></li>
+            <li><a class="container__link" href="/">Акции</a></li>
+            <li><a class="container__link" href="/">Поддержка</a></li>
+            <li><a class="container__link" href="/">Отзывы клиентов</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <div>
+            <h3 class="container__title">Контакты</h3>
+            <button class="container__button">
+              <img
+                src="./assets/btn-line.png"
+                alt="line"
+                width="20"
+                height="15"
+              />
+            </button>
+          </div>
+          <ul class="container__list">
+            <li>
+              <a
+                class="container__link container-contact"
+                href="tel:08008675637"
+                >0 800 867 56 37</a
+              >
+              <p class="container__text">
+                Специалисты нашего колл-центра готовы помочь вам с с 6:00 до
+                20:00
+              </p>
+            </li>
+            <li>
+              <a
+                class="container__link container-contact"
+                href="mailto:info@hope.group"
+                >info@hope.group</a
+              >
+            </li>
+            <li>
+              <ul class="social-desktop">
+                <li>
+                  <a class="social__link" href="/">
+                    <svg class="social__icon" width="43" height="29">
+                      <use href="./assets/icons.svg#telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="social__link" href="/">
+                    <svg class="social__icon" width="43" height="29">
+                      <use href="./assets/icons.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="social__link" href="/">
+                    <svg class="social__icon" width="43" height="29">
+                      <use href="./assets/icons.svg#youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p class="container__adress-title">Адрес</p>
+              <p class="container__adress">
+                00601, г. Киев, Улица Твоеймамы, 66, офис 000
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <div>
+            <h3 class="container__title">Документация</h3>
+            <button class="container__button">
+              <img
+                src="./assets/btn-line.png"
+                alt="line"
+                width="20"
+                height="15"
+              />
+            </button>
+          </div>
+          <ul class="container__list">
+            <li><a class="container__link" href="/">Условия договора</a></li>
+            <li>
+              <a class="container__link" href="/"
+                >Политика конфиденциальности персональных данных</a
+              >
+            </li>
+            <li>
+              <a class="container__link" href="/">Условия реструктуризации</a>
+            </li>
+            <li><a class="container__link" href="/">Образцы заявлений</a></li>
+            <li><a class="container__link" href="/">Реквизиты</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

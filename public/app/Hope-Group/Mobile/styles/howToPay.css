@@ -1,0 +1,78 @@
+.pay {
+  padding: 20px 0;
+}
+.pay__title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pay__btn {
+  max-width: 480px;
+  width: 100%;
+  background-color: var(--text-color-bl);
+  color: var(--bgcolor-w);
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pay__title span {
+  color: var(--text-color-bl);
+}
+.pay__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pay__list li {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 15px 8px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.pay__list-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pay__list-title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.pay--active {
+  color: var(--text-color-bl);
+  font-weight: 700;
+}
+
+.pay__list-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.pay__icon {
+  stroke: var(--bgcolor-b);
+  stroke-width: 6.79448;
+}
+
+.pay__list-text {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.pay__list-text:last-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}

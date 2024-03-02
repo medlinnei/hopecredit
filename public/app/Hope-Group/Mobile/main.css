@@ -1,0 +1,286 @@
+@import url(./styles/commonStyles.css);
+@import url(./styles/login.css);
+@import url(./styles/mainPage.css);
+@import url(./styles/investPage.css);
+@import url(./styles/howToPay.css);
+@import url(./styles/news.css);
+@import url(./styles/howToTake.css);
+@import url(./styles/aboutUs.css);
+@import url(./styles/creditTerms.css);
+@import url(./styles/docs.css);
+
+:root {
+  --bgcolor-w: #ffffff;
+  --bgcolor-b: #000000;
+  --btn-color: #1278ee;
+  --text-color-bl: #0e7eef;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bgcolor-w);
+  color: var(--bgcolor-b);
+  margin: 0 auto;
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+footer {
+  max-width: 480px;
+  background-color: var(--bgcolor-b);
+  color: var(--bgcolor-w);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.wrapper-bottom {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 480px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.main {
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.warnings__list {
+  list-style: disc;
+  list-style-position: outside;
+  padding-left: 20px;
+}
+
+section,
+div {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav__list {
+  color: var(--bgcolor-b);
+}
+.header-main {
+  background-color: #000000;
+}
+
+.header-main .logo,
+.nav__list--black {
+  color: #ffffff;
+}
+
+.header-main .burger__line {
+  border-color: #ffffff;
+}
+
+/* header */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__text {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.burger {
+  background: transparent;
+  border: none;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 0;
+}
+
+.burger__line {
+  display: inline-block;
+  box-sizing: content-box;
+  width: 25px;
+  height: 0;
+  border: 1px solid black;
+}
+
+nav {
+  display: none;
+}
+
+.nav__list {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* footer */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.footer__logo {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.social__link {
+  display: inline-flex;
+  align-items: center;
+  height: 34px;
+}
+
+.social__icon {
+  fill: #ffffff;
+}
+
+.social-desktop {
+  display: none;
+}
+
+.help {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.help__link {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  align-items: center;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  padding: 5px 10px;
+  height: 35px;
+}
+
+.container__title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.container__button {
+  width: 35px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.container__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.container__list:last-child {
+  margin-bottom: 0;
+}
+
+.container__link {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.container__text {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+}
+
+.container__adress-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--bgcolor-w);
+  margin-bottom: 5px;
+}
+
+.container__adress {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,89 @@
+.take {
+  padding: 0;
+  padding-top: 10px;
+}
+.take__title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.take__title span {
+  color: var(--text-color-bl);
+}
+
+.take__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.take__list li {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.take__list-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+.take__list-block p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.take__list-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.take__list-text {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.take__calculate {
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.take__calculate--result {
+  text-align: center;
+}
+
+.take__calculate--btn {
+  border-radius: 80px;
+  border-top-left-radius: 0;
+  margin-bottom: 10px;
+}
+
+.take__promocode {
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 1.15;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  margin-bottom: 20px;
+}
+
+.take__programm-btn {
+  width: 280px;
+}
+
+.take__text {
+  width: 75%;
+  font-size: 10px;
+}
+
+.take__text a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
